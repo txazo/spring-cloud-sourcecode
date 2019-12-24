@@ -16,6 +16,8 @@
         <module>eureka-core</module>
         <module>hystrix-core</module>
         <module>ribbon-eureka</module>
+        <module>zuul-core</module>
+
         <module>spring-cloud-netflix</module>
         <module>spring-cloud-netflix-dependencies</module>
         <module>spring-cloud-netflix-eureka-client</module>
@@ -23,12 +25,16 @@
         <module>spring-cloud-netflix-hystrix</module>
         <module>spring-cloud-netflix-ribbon</module>
         <module>spring-cloud-netflix-zuul</module>
+
         <module>spring-cloud-starter-netflix-eureka-client</module>
         <module>spring-cloud-starter-netflix-eureka-server</module>
         <module>spring-cloud-starter-netflix-hystrix</module>
         <module>spring-cloud-starter-netflix-ribbon</module>
         <module>spring-cloud-starter-netflix-zuul</module>
-        <module>zuul-core</module>
+
+        <module>spring-cloud-sample-eureka-server</module>
+        <module>spring-cloud-sample-service-app</module>
+        <module>spring-cloud-sample-service-user</module>
     </modules>
 
     <build>

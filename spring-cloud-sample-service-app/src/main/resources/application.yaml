@@ -1,0 +1,16 @@
+server:
+  port: 9990
+
+spring:
+  application:
+    name: spring-cloud-sample-service-app
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka/

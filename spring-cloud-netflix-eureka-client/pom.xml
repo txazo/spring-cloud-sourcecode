@@ -54,7 +54,6 @@
         <dependency>
             <groupId>com.netflix.eureka</groupId>
             <artifactId>eureka-client</artifactId>
-            <version>1.9.13-SNAPSHOT</version>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -65,7 +64,6 @@
         <dependency>
             <groupId>com.netflix.eureka</groupId>
             <artifactId>eureka-core</artifactId>
-            <version>1.9.13-SNAPSHOT</version>
             <optional>true</optional>
         </dependency>
         <dependency>
